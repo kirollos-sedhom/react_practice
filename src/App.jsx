@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Accordion from "./components/accordion";
 import RandomColor from "./components/randomColor/RandomColor.jsx";
+import RatingStars from "./components/ratingStars/ratingStars.jsx";
+
 import "./App.css";
 
 function App() {
@@ -9,7 +11,8 @@ function App() {
   return (
     <>
       {/* <Accordion /> */}
-      <RandomColor/>      
+      {/* <RandomColor/>       */}
+      <RatingStars/>
     </>
   );
 }
